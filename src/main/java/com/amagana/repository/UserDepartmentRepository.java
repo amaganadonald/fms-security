@@ -1,6 +1,6 @@
 package com.amagana.repository;
 
-import com.amagana.model.UserDepartment;
+import com.amagana.domain.UserDepartment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

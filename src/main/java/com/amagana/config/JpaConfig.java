@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
-@EntityScan("com.amagana.model")
+@EntityScan("com.amagana.domain")
 @EnableJpaRepositories("com.amagana.repository")
 public class JpaConfig {
 }
